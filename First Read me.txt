@@ -1,0 +1,50 @@
+D:\Angular-Workshop\MainProject>ng new ecommerce  --standalone=false
+? Which stylesheet format would you like to use? CSS
+? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component home
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component header
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component footer
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component about
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component products
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component product
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component contact
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component login
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component register
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component notfound
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component cart
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate component dashboard
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate guard dashboard
+? Which type of guard would you like to create? CanActivate
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate service api
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate service auth
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate service db
+
+D:\Angular-Workshop\MainProject\ecommerce>ng generate module pages
+
+D:\Angular-Workshop\MainProject\ecommerce>ng add ngx-bootstrap
+The package ngx-bootstrap@12.0.0 will be installed and executed.
+Would you like to proceed? Yes
+
+D:\Angular-Workshop\MainProject\ecommerce>npm install @fortawesome/fontawesome-free --save
+
+D:\Angular-Workshop\MainProject\ecommerce>npm install firebase @angular/fire
+
+D:\Angular-Workshop\MainProject\ecommerce>ng g interface model/Users
+
+D:\Angular-Workshop\MainProject\ecommerce>ng g interface model/Product
