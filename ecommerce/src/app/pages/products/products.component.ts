@@ -34,6 +34,7 @@ export class ProductsComponent {
 
     this.as.getProducts().subscribe((data:any) => {
       this.products = data.products.map((product: any) => ({ ...product, count: 1, isDisabled: false, isDisabled2: true }));
+      //console.log(this.products)
       
       this.products.forEach((product: any) => {
         const category = product.category;

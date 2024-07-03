@@ -1,7 +1,7 @@
 <div class="slider">
     <div class="list">
-        <div class="item" *ngFor="let item of items; let i = index" [ngClass]="{'active': i === itemActive}">
-            <img [src]="item.image" alt="">
+        <div class="item" *ngFor="let item of oneproduct; let i = index" [ngClass]="{'active': i === itemActive}">
+            <img [src]="item.thumbnail" alt="">
             <div class="content">
                 <p>S-Mart</p>
                 <h2>{{ item.title }}</h2>
@@ -14,10 +14,10 @@
         <button (click)="next()">&gt;</button>
     </div>
     <div class="thumbnail">
-      <div class="item" *ngFor="let thumbnail of thumbnails; let i = index" [ngClass]="{'active': i === itemActive}" (click)="changeImage(i)">
-        <img [src]="thumbnail.image" alt="">
+      <div class="item" *ngFor="let item of oneproduct; let i = index" [ngClass]="{'active': i === itemActive}" (click)="changeImage(i)">
+        <img [src]="item.thumbnail" alt="">
         <div class="content">
-          <a [routerLink]="['/product', thumbnail.link]">{{ thumbnail.name }}</a>
+          <a [routerLink]="['/product', item.id]">{{ item.title }}</a>
         </div>
       </div>
     </div>
